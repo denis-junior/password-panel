@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #E6E2C3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.view {
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-view {
+    background-color: #1C315E;
+    flex: 3;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.secondary-view {
+    background-color: #16274d;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
-.App-link {
-  color: #61dafb;
+.main-password-title {
+    /* background-color: yellow; */
+    font-size: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-password-number {
+    margin-top: 2rem;
+    font-size: 6rem;
+    /* background-color: yellowgreen; */
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 1rem;
+
+    
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.secondary-title {
+    text-align: center;
+    padding: 1rem 0;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    /* background-color: #88A47C; */
+}
+
+.secondary-box-password {
+    background-color: #227C70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+
+    font-weight: bold;
+
+    font-size: 4rem;
+
+    margin-bottom: 2rem;
+
+    border-radius: .5rem;
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.secondary-password-title {
+ margin-right: 1.2rem;
+}
+
+.secondary-password-number {
+
 }
