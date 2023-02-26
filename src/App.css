@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    color: #E6E2C3;
 }
 
 .view {
@@ -11,6 +9,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
+    color: #E6E2C3;
 }
 
 .main-view {
@@ -55,9 +54,6 @@ ul {
 
     padding: 0 1rem;
 
-    
-    /* align-items: center; */
-    /* justify-content: space-between; */
 }
 
 .secondary-title {
@@ -67,7 +63,6 @@ ul {
     font-weight: bold;
     font-size: 1.5rem;
 
-    /* background-color: #88A47C; */
 }
 
 .secondary-box-password {
@@ -76,15 +71,12 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 5rem;
-
-    font-weight: bold;
-
-    font-size: 4rem;
-
     margin-bottom: 2rem;
-
     border-radius: .5rem;
 
+    font-weight: bold;
+    font-size: 4rem;
+    
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
