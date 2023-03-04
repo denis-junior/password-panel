@@ -37,11 +37,12 @@
 .main-password-title {
     /* background-color: yellow; */
     font-size: 5rem;
+    font-weight: bold;
 }
 
 .main-password-number {
     margin-top: 2rem;
-    font-size: 6rem;
+    font-size: 10rem;
     /* background-color: yellowgreen; */
 }
 
@@ -83,6 +84,7 @@ ul {
 
 .secondary-password-title {
  margin-right: 1.2rem;
+ font-weight: 400;
 }
 
 .secondary-password-number {
