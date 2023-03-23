@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .view {
@@ -164,7 +165,7 @@
 }
 
 .passwords-tables {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     /* justify-content: space-between; */
     margin-top: 5rem;
@@ -174,7 +175,8 @@
 .passwords-control {
     display: flex;
     justify-content: space-evenly;
-    background-color: yellow;
+    /* background-color: yellow; */
+    border-right: 1px solid #FFF;
     /* width: 100%; */
     height: 100%;
     flex: 1;
@@ -183,9 +185,19 @@
 
 .tutorial {
     flex: 1;
+    color: #FFF;
+    padding: 0 5rem;    
+}
+
+.title-tutorial {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
     
 }
 
+.text-tutorial {
+    font-size: 1.2rem;
+}
 
 .title-passwords-control {
     color: #FFF;
@@ -203,7 +215,11 @@
     list-style-type: none;
 }
 
-.last-passwords-control > ul > li, .current-password-control > ul > li{
+.current-next-passwords-control {
+height: 100%;
+}
+
+.last-passwords-control > ul > li, .current-password-control > ul > li, .next-password-control > ul > li{
     color: #FFF;
     font-weight: bold;
     font-size: 1.4rem;
@@ -215,13 +231,14 @@
     padding: .7rem 0;
 }
 
-.current-password-control {
+.current-password-control, .next-password-control {
     background-color: #1C315E;
     border-radius: .5rem;
     padding: 2rem .75rem;
     height: 100%;
+    margin-bottom: 1.3rem;
     
 }
-.current-password-control > ul{
+.current-password-control > ul, .next-password-control > ul{
     list-style-type: none;
 }

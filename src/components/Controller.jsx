@@ -59,16 +59,27 @@ const Controller = () => {
               <li>Senha 1</li>
             </ul>
           </div>
-          <div className="current-password-control">
-            <h2 className="title-passwords-control">Current Password</h2>
-            <ul>
-              <li>Senha 5</li>
-            </ul>
+          <div className="current-next-passwords-control">
+            <div className="current-password-control">
+              <h2 className="title-passwords-control">Current Password</h2>
+              <ul>
+                <li>Senha 5</li>
+              </ul>
+            </div>
+            <div className="next-password-control">
+              <h2 className="title-passwords-control">Next Password</h2>
+              <ul>
+                <li>Senha 5</li>
+              </ul>
+            </div>
+
           </div>
+
+
         </div>
 
         <div className="tutorial">
-          <h2>How to use</h2>
+          <h2 className="title-tutorial">How to use</h2>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
