@@ -50,7 +50,7 @@ const Controller = () => {
       <section className="passwords-tables">
         <div className="passwords-control">
           <div className="last-passwords-control">
-            <h2 className="title-passwords-control">Last Passwords</h2>
+            <h2 className="title-passwords-control">Ultimas Senhas</h2>
             <ul>
               <li>Senha 5</li>
               <li>Senha 4</li>
@@ -61,15 +61,15 @@ const Controller = () => {
           </div>
           <div className="current-next-passwords-control">
             <div className="current-password-control">
-              <h2 className="title-passwords-control">Current Password</h2>
+              <h2 className="title-passwords-control">Senha Atual</h2>
               <ul>
                 <li>Senha 5</li>
               </ul>
             </div>
             <div className="next-password-control">
-              <h2 className="title-passwords-control">Next Password</h2>
+              <h2 className="title-passwords-control">Proxima Senha</h2>
               <ul>
-                <li>Senha 5</li>
+                <li>Senha 6</li>
               </ul>
             </div>
 
@@ -79,7 +79,7 @@ const Controller = () => {
         </div>
 
         <div className="tutorial">
-          <h2 className="title-tutorial">How to use</h2>
+          <h2 className="title-tutorial">Como usar</h2>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
           <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
