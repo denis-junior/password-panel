@@ -21,7 +21,7 @@ function Pannel() {
       </div>
       <div className="secondary-view">
         <p className="secondary-title">Últimas Senhas</p>
-        <ul>
+        <ul className="ul-pannel">
           <li className="secondary-box-password">
             <p className="secondary-password-title">Senha</p>
             <h4 className="secondary-password-number">

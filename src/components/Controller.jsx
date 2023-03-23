@@ -16,29 +16,65 @@ const Controller = () => {
   };
 
   return (
-    <>
+    <div className="pannel-control">
       <div className="add-password-section">
-        <label className="form-label fs-5">Insira a Senha</label>
-        <input
-          className="form-control"
-          type="number"
-          name="password"
-          placeholder={`Insera o número da senha aqui`}
-          onChange={handleInputChange}
-          // value={newPassword}
-        />
-        <button
-          onClick={() => {
-            handlePassword(newPassword);
-          }}
-        >
-          Adicionar Senha
-        </button>
+        <div className="control-password-section">
+          <label className="label-password-section">Insira a Senha</label>
+          <input
+            className="input-password-section"
+            type="number"
+            name="password"
+            onChange={handleInputChange}
+            min="1"
+            // value={newPassword}
+          />
+
+          <div className="controls-password-section">
+            <button
+              className="default-button"
+              onClick={() => {
+                handlePassword(newPassword);
+              }}
+            >
+              Adicionar Senha
+            </button>
+
+            <button className="default-button" onClick={changeCurrentPassword}>
+              Chamar próxima senha
+            </button>
+          </div>
+        </div>
+
+        <h1 className="title-password-section">Control Pannel</h1>
       </div>
-      <div className="call-next-password">
-        <button onClick={changeCurrentPassword}>Chamar próxima senha</button>
-      </div>
-    </>
+      <section className="passwords-tables">
+        <div className="passwords-control">
+          <div className="last-passwords-control">
+            <h2 className="title-passwords-control">Last Passwords</h2>
+            <ul>
+              <li>Senha 5</li>
+              <li>Senha 4</li>
+              <li>Senha 3</li>
+              <li>Senha 2</li>
+              <li>Senha 1</li>
+            </ul>
+          </div>
+          <div className="current-password-control">
+            <h2 className="title-passwords-control">Current Password</h2>
+            <ul>
+              <li>Senha 5</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="tutorial">
+          <h2>How to use</h2>
+          <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
+          <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
+          <p className="text-tutorial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus placeat libero nesciunt, quae ut, a omnis quasi similique, tempore delectus. Quis quia sint perspiciatis dolor esse eveniet odit atque?</p>
+        </div>
+      </section>
+    </div>
   );
 };
 
